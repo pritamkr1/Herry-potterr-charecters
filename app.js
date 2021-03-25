@@ -1,4 +1,4 @@
-let getUrl = "http://hp-api.herokuapp.com/api/characters";
+let getUrl = "https://hp-api.herokuapp.com/api/characters";
 let container = document.querySelector('.container');
 
 let searchBar = document.querySelector('#searchbar');
@@ -25,7 +25,7 @@ function getData(){
         console.log(fillterCharecter);
      });
 
-
+     
 
       var actor = "";
       char.forEach(function(el){
